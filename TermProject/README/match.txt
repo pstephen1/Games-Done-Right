@@ -1,0 +1,23 @@
+Instructions:
+
+In order to play this game, simply click on a card. The card will be flipped. Once you click on a second card, the cards will be matched together.
+If they match, you score a point! If they don't, then you gain a "miss." You will have two seconds to look at the cards before they're put back face down.
+During the two seconds, you cannot select more cards.
+The game continues until all cards are matched. 
+To play again, simply refresh the page - The cards are randomized on load!
+
+Purpose:
+
+The purpose of this game is to practice the use of jQuery for the purpose of study. Rather than use text, I wanted to practice with images and manipulating their states (classes).
+
+Issues:
+
+At present there are no known problems with the game. 
+This was also much more complicated than I thought it would be, so there may be issues that I have not come across.
+
+Future releases:
+
+In a future release I would like to add a reset button that reinitializes the game.
+I would also like to animate the card flips.
+
+This game is the original work of and © Stephen Pickard, 2023.

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Games Done Right</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/match.js"></script>
+    <style>
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+.card {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.back {
+  background-image: url("media/cardback.jpg");
+  background-size: cover;
+}
+.scores p{
+    padding: 5px;
+    display: inline;
+    align-items: center;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Games Done Right</h1>
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="runninman.html">Runnin' Man</a></li>
+            <li><a href="spaceblaster.html">Space Blaster</a></li>
+            <li><a href="matchemup.html">Match 'Em Up!</a></li>
+        </ul>
+    </nav>
+
+    <p>Match 'Em Up! is a match-two style game that will randomly scatter a deck of 20 cards for the player to then match together.</p>
+
+    <!-- The board is arranged in four rows of five cards, with a score and miss counter kept at the bottom.
+         There is a score counter on top of the board, giving the player a total of points and missed matches.-->
+
+    
+    <div class="scores">
+        <p>Score: <span id="score">0</span></p>
+        <p>Misses: <span id="miss">0</span></p>
+      </div>
+
+    <div class="game-board">
+        <div class="row" id="row1">
+          <div class="card" id="card1"></div>
+          <div class="card" id="card2"></div>
+          <div class="card" id="card3"></div>
+          <div class="card" id="card4"></div>
+          <div class="card" id="card5"></div>
+        </div>
+        <div class="row" id="row2">
+          <div class="card" id="card6"></div>
+          <div class="card" id="card7"></div>
+          <div class="card" id="card8"></div>
+          <div class="card" id="card9"></div>
+          <div class="card" id="card10"></div>
+        </div>
+        <div class="row" id="row3">
+          <div class="card" id="card11"></div>
+          <div class="card" id="card12"></div>
+          <div class="card" id="card13"></div>
+          <div class="card" id="card14"></div>
+          <div class="card" id="card15"></div>
+        </div>
+        <div class="row" id="row4">
+          <div class="card" id="card16"></div>
+          <div class="card" id="card17"></div>
+          <div class="card" id="card18"></div>
+          <div class="card" id="card19"></div>
+          <div class="card" id="card20"></div>
+        </div>
+      </div>
+      <div class="msg"></div>
+      <a href="README/match.txt" download>Download README for more info</a>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    background-color: skyblue;
+    width: 33%;
+    margin:auto;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+h2{
+  text-align: center;
+  background-color: skyblue;
+  width: 10%;
+  margin:auto;
+  border: 2px solid black;
+  border-radius: 35px;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#canvas-container {
+  width: 100%;
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid black;
+  display: inline;
+}
+
+div.msg {
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 15%;
+  margin: auto;
+  background-color: skyblue;
+}
+
+p{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    margin-left: 33%;
+    background-color: skyblue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    border-radius: 30px;
+  }
+
+  li .active{
+    background-color: grey;
+  }
+  
+  nav li {
+    float: left;
+    border-right: 1px solid white;
+  }
+
+  nav ul li {
+      display: inline-block;
+      border-radius: 30px;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 30px;
+    
+  }
+  
+  nav li a:hover {
+    background-color: grey;
+    transition: 0.5s;
+    border-radius: 30px;
+  }
+
+  canvas{
+      border-radius: 1px solid black;
+  }

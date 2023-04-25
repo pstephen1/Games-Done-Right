@@ -1,0 +1,21 @@
+To play this game the controls are as follows:
+
+Arrow left / right - Move the player piece.
+Space - Fire 
+
+Purpose:
+The purpose of this game is to demonstrate a Canvas project, while also practicing more with loops as I found more detailed ones a little more difficult to develop.
+This was made even more complicated by tracking individual elements in an array.
+
+Current problems:
+If the enemies are left to bounce side to side, the first enemy in the second row will slowly become out of sync with the rest of the enemies.
+
+Issue resolutions:
+I would like to address the straggler enemy in the array, possibly by processing the array all at once in the colission detection. However, since the array length varies as the game progresses, 
+this can be difficult, but not impossible.
+
+Future release plans:
+Currently the game background is a solid black. I would like to add a starfield to the background to make the game more dynamic.
+I would also eventually like to add sound and music.
+
+This game is an original work and is © Stephen Pickard, 2023

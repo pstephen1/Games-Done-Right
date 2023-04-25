@@ -1,0 +1,20 @@
+Purpose:
+
+Runnin' Man is a miniature platformer that was created to study game loops and HTML Canvas. The colission detection of the game was probably
+the hardest part to figure out, but I think that its current implementation is sufficient for this game.
+
+Instructions:
+
+Use the left and right arrow keys to move.
+Press Space to jump.
+
+Known issues:
+
+There are currently no known issues with the game. It is a short run to the top.
+
+Future releases:
+
+More levels!
+Sound effects and music as well.
+
+This game is the original work of and © Stephen Pickard, 2023.
